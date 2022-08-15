@@ -6,38 +6,33 @@ const apiKey = 'fef7810e8655183989fc8bcabdf75843'
 // Set Units to Metric
 const units = 'units=metric'
 // Set the call URL
-const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&${units}`
+const callURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&${units}`
 
 // Create a new date instance dynamically with JS
 let d = new Date();
 let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
 
 // Get all data at app endpoint
-const retrieveData = async () =>{
+const retrieveAppData = async () =>{
   const request = await fetch('/all');
   try {
-  const allData = await request.json()
-  console.log(allData)
-  // Write updated data to DOM elements
-  document.getElementById('temp').innerHTML = Math.round(allData.temp)+ 'degrees';
-  document.getElementById('content').innerHTML = allData.feel;
-  document.getElementById('date').innerHTML =allData.date;
+  const dataJSON = await request.json()
+  document.getElementById('date').innerHTML = `Date: ${newDate}`;
+  document.getElementById('temp').innerHTML = `Temprature: ${Math.round(dataJSON.Entry1.main.temp)} degrees`
+  document.getElementById('content').innerHTML = `Feels Like: ${dataJSON.Entry1.main.feels_like}`
   }
   catch(error) {
     console.log("Error: ", error);
   }
- }
+}
 
-// Async Get 
-const getData = async (url='') => { 
-    const response = await fetch(url)
-    try {
-    const allData = await response.json()
-    console.log(allData)
-    }
-    catch(error) {
-      console.log("error", error)
-    }
+// Get Weather Data from API (Helper for postWeather())
+const getWeatherData = async () => { 
+    const response = await fetch(callURL)
+    const dataJSON = await response.json()
+    console.log(dataJSON)
+    return dataJSON
+    
 }
 
 // Async Post
@@ -51,7 +46,7 @@ const postData = async (url='', data={}) => {
   })  
   try{
     const dataJSON = await request.json()
-    console.log(dataJSON)
+    // console.log(dataJSON)
     return dataJSON
   }
   catch(error) {
@@ -59,6 +54,11 @@ const postData = async (url='', data={}) => {
   }
 }
 
-// getData('/all')
-// getData(url)
-postData('/addData', {name: 'Tazola', gender: 'Male'})
+// Post Weather from API to app Endpoint and updates DOM
+const postWeather = async () => {
+  getWeatherData().then( (data) => {
+    postData('addData', data)
+  }).then(retrieveAppData())
+}
+
+// postWeather()

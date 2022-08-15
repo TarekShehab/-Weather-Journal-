@@ -22,15 +22,25 @@ body{
 }
 
 .entry{
-    background: rgba(59, 74, 107, .4);
+    /* background: rgba(59, 74, 107, .4); */
+    
 }
 
 .holder.entry{
-    margin-top: 5rem; ;
+    
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-left: 0;
 }
 
 #entryHolder{
+    padding: 1rem;
+    border-bottom: #444;
+    border-bottom-style: solid;
+}
 
+#zip{
+    width: 20rem;
 }
 
 #date{
@@ -49,28 +59,33 @@ body{
 
 }
 .title{
-
+    text-align: center;
+    font-weight: bolder;
+    color:#3b4a6b;
+    border: #444;
+    border-style: solid;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
 label{
     display:block;
     font-size: 27px;
+    /* width: 10rem; */
 }
 
 input{
     display:block;
     height: 60px;
     width: 320px;
-    background:#22b2da;
-    color: #f0d43a;
+    background:#3b4a6b;
+    color: #ecebe4;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     border: none;
 }
 
 button{
-    width: 400px;
+    width: 20rem;
     height: 100px;
     background: #3b4a6b;
     color: #f0d43a;
@@ -78,16 +93,18 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    margin-top: 1rem;
 }
 h1{
     font-size: 36px;
 }
 
 textarea{
-    background:#22b2da;
-    color: #f0d43a;
+    background:#3b4a6b;
+    color: #ecebe4;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    width: 20rem;
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,
@@ -98,7 +115,7 @@ button:focus {
 }
 /* Style for Placeholder Text*/
 ::placeholder { /* Firefox, Chrome, Opera */ 
-    color: #f0d43a; 
+    color: #ecebe45d; 
     font-family: 'Oswald', sans-serif;
 
 } 
