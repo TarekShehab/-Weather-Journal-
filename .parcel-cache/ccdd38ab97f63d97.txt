@@ -17,12 +17,12 @@
 154C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\caniuse-lite\data\features\object-fit.js133049874125385045 0
 148C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\object-inspect\example\circular.js133049872731172460 0
 160C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\caniuse-lite\data\features\css-motion-paths.js133049874119818232 0
-110C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\server.js132784870460000000 0
+110C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\server.js133050477076101589 0
 131C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\dotenv-expand\lib133049874104527010 1
 138C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\abortcontroller-polyfill133049874108654638 1
 129C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\debug\README.md133049872730612786 0
 142C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\cache\lib\types.d.ts133049874108954463 0
-105C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\dist133049877368935665 1
+105C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\dist133050477177150302 1
 154C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\transformer-postcss\package.json133049874106475895 0
 139C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\css-select\lib\index.d.ts133049874111273136 0
 137C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\htmlnano\lib\helpers.js133049874106695773 0
@@ -62,7 +62,7 @@
 162C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@swc\helpers\lib\_check_private_redeclaration.js133049874107035563 0
 153C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\svgo\plugins\cleanupEnableBackground.js133049874106645794 0
 146C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\svgo\plugins\removeDimensions.js133049874112842235 0
-115C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\website\app.js132784870460000000 0
+115C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\website\app.js133050477172613148 0
 145C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\caniuse-lite\data\regions\US.js133049874127883603 0
 128C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\lmdb\native.js133049874118219150 0
 165C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@jridgewell\gen-mapping\dist\types\gen-mapping.d.ts133049874106046140 0
@@ -3943,7 +3943,7 @@
 147C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\workers\lib\childState.js133049874105746304 0
 145C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\workers\lib\cpuCount.js133049874106805701 0
 142C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\workers\lib\index.js133049874109354237 0
-123C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\dist\index.bba0b65b.js133049876516816871 0
+123C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\dist\index.bba0b65b.js133050477177100493 0
 145C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\workers\lib\Profiler.js133049874110983302 0
 148C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\core\src\CommittedAsset.js133049874113232011 0
 142C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\@parcel\workers\lib\types.js133049874112112651 0
@@ -4672,5 +4672,5 @@
 125C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\.bin\terser133049874129082916 0
 129C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\.bin\terser.cmd133049874129082916 0
 129C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\node_modules\.bin\terser.ps1133049874129082916 0
-127C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\dist\index.bba0b65b.js.map133049876516866845 0
+127C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\dist\index.bba0b65b.js.map133050477177150302 0
 125C:\Users\Lenovo\Documents\Web development Courses Documents\Udacity\FWD-professional\weather-journal\dist\website.8c9ac875.js133049876516816871 0
