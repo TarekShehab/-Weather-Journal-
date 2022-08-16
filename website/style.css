@@ -18,11 +18,6 @@ body{
     text-align: center;
 }
 
-.entry{
-    /* background: rgba(59, 74, 107, .4); */
-    
-}
-
 .holder.entry{
     width: 30rem;
     padding-top: 5rem;
@@ -40,21 +35,8 @@ body{
     width: 20rem;
 }
 
-#date{
+/* #date #temp #content .headline */
 
-}
-
-#temp{
-
-}
-
-#content{
-
-}
-
-.headline {
-
-}
 .title{
     text-align: center;
     font-weight: bolder;
@@ -67,7 +49,6 @@ body{
 label{
     display:block;
     font-size: 27px;
-    /* width: 10rem; */
 }
 
 input{
