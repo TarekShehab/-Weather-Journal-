@@ -1,6 +1,6 @@
 // Endpoint for all routes
 projectData = {}
-let entryCount = 1
+// let entryCount = 1
 
 // Require Express, Body Parser, and CORS
 const express = require('express')

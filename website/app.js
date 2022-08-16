@@ -24,15 +24,6 @@ const retrieveAppData = async () =>{
   }
 }
 
-// Get Weather Data from API (Helper for postWeather())
-const getWeatherData = async (zip) => { 
-  const callURL = urlFront + zip + urlEnd 
-  const response = await fetch(callURL)
-  const dataJSON = await response.json()
-  console.log(dataJSON)
-  return dataJSON  
-}
-
 // Async Post (Helper for postWeather())
 const postData = async (url='', data={}) => {
   
@@ -51,6 +42,15 @@ const postData = async (url='', data={}) => {
   }
 }
 
+// Get Weather Data from API (Helper for postWeather())
+const getWeatherData = async (zip) => { 
+  const callURL = urlFront + zip + urlEnd 
+  const response = await fetch(callURL)
+  const dataJSON = await response.json()
+  console.log(dataJSON)
+  return dataJSON  
+}
+
 // Post Weather from API to app Endpoint and updates DOM
 const postWeather = async (userResponse={}) => {
   const zip = userResponse.zip
@@ -62,15 +62,19 @@ const postWeather = async (userResponse={}) => {
     })
 }
 
-// Click event listener to handle ubmit
-const genButton = document.getElementById('generate')
-genButton.addEventListener('click', () => {
-  const zip = document.getElementById('zip').value
-  const feeling = document.getElementById('feelings').value
-  const userResponse = {
-    zip: zip,
-    feeling: feeling,
-    date: newDate
-  }
-  postWeather(userResponse)
-})
+const buildApp = () => {
+  const genButton = document.getElementById('generate')
+  // Click event listener to handle ubmit
+  genButton.addEventListener('click', () => {
+    const zip = document.getElementById('zip').value
+    const feeling = document.getElementById('feelings').value
+    const userResponse = {
+      zip: zip,
+      feeling: feeling,
+      date: newDate
+    }
+    postWeather(userResponse)
+  })
+}
+
+buildApp()
